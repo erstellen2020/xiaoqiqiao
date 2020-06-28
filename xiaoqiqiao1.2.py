@@ -30,8 +30,8 @@ class App():
         options.add_experimental_option('prefs', {'intl.accept_languages': 'zh-CN'})
         self.driver = webdriver.Chrome(options=options)
         self.driver.get('https://login.xiaoqiqiao.com/login/login')
-        user_name = "bigdatahcna"
-        user_key = "bigdata@1234"
+        user_name = "账户名"
+        user_key = "密码"
 
         # username
         self.driver.find_element_by_id("loginform-username").send_keys(user_name)
