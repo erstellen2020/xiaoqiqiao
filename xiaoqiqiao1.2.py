@@ -28,7 +28,7 @@ class App():
         options = webdriver.ChromeOptions()
         options.add_argument('--disable-gpu')
         options.add_experimental_option('prefs', {'intl.accept_languages': 'zh-CN'})
-        self.driver = webdriver.Chrome(options=options)
+        self.driver = webdriver.Chrome(options=options,executable_path='chromedriver.exe')
         self.driver.get('https://login.xiaoqiqiao.com/login/login')
         user_name = "账户名"
         user_key = "密码"
