@@ -48,6 +48,6 @@ markdown图片位置随意，相对路径与绝对路径都支持
 
 ## 四、友情支持
 
-我想赞助瑞星咖啡
+赞助瑞幸咖啡
 
-<img src="https://github.com/erstellen2020/xiaoqiqiao/blob/master/zhifubao.jpg" alt="image-20200629015654400" style="zoom:25%;" />
+<img src="zhifubao.jpg" alt="image-20200629015654400" style="zoom:25%;" />
