@@ -335,7 +335,7 @@ class App:
 
 
 if __name__ == '__main__':
-    a = App('hwzhinengjisuan02', 'Huawei@12#$')
+    a = App('user', 'pwd')
     a.login()
     a.lab_edit()
     a.clean_lab()
